@@ -6,6 +6,9 @@ on:
     branches:
       - main
 
+permissions:
+  pull-requests: write
+
 jobs:
   use-base-action:
     uses: watsutatsu/actions/.github/workflows/godot-ci.yml@apaz/godot-ci
