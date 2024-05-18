@@ -10,7 +10,7 @@ permissions:
   pull-requests: write
 
 jobs:
-  use-base-action:
+  godot-ci:
     uses: watsutatsu/actions/.github/workflows/godot-ci.yml@apaz/godot-ci
     with:
       godot_version: 4.2.2
