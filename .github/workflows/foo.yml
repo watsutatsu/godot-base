@@ -1,5 +1,0 @@
-name: Use Base Action
-on: [push, pull_request]
-jobs:
-  use-base-action:
-    uses: watsutatsu/base-actions/.github/workflows/godot-ci.yml@main
