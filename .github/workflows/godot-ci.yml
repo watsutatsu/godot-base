@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   godot-ci:
-    uses: watsutatsu/actions/.github/workflows/godot-ci.yml@apaz/godot-ci-patch1
+    uses: watsutatsu/actions/.github/workflows/godot-ci.yml@main
     with:
       godot_version: 4.2.2
       export_name: test-project
