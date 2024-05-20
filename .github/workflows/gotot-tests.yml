@@ -8,7 +8,7 @@ on:
 
 jobs:
   godot-ci:
-    uses: watsutatsu/actions/.github/workflows/godot-tests.yml@apaz/godot-tests-1
+    uses: watsutatsu/actions/.github/workflows/godot-tests.yml@main
     with:
       gut_version: 9.2.1
       godot_version: 4.2.2
